@@ -10,9 +10,9 @@ This repository contains Python code to perform exploratory analysis and fit mac
 
 This code mainly comprises four Jupyter Notebooks:
 
-- [**0. Exploratory analysis.ipynb**](/0. Exploratory analysis.ipynb): Basic data analysis to get descriptive statistics and explore trends between factors related to household displacement and return after disasters
-- [**1. Classification tree.ipynb**](/1. Classification tree.ipynb): Fits a decision tree model for household displacement durations
-- [**2. Random forest.ipynb**](/2. Random forest.ipynb): Fits a random forest model for household displacement durations
-- [**3. Model variant - physical factors only.ipynb**](/3. Model variant - physical factors only.ipynb): Fits a decision tree model, but only considers physical factors typically included within disaster risk analyses
+- [**0. Exploratory analysis.ipynb**](/0.%20Exploratory%20analysis.ipynb): Basic data analysis to get descriptive statistics and explore trends between factors related to household displacement and return after disasters
+- [**1. Classification tree.ipynb**](/1.%20Classification%20tree.ipynb): Fits a decision tree model for household displacement durations
+- [**2. Random forest.ipynb**](/2.%20Random%20forest.ipynb): Fits a random forest model for household displacement durations
+- [**3. Model variant - physical factors only.ipynb**](/3.%20Model%20variant%20-%20physical%20factors%20only.ipynb): Fits a decision tree model, but only considers physical factors typically included within disaster risk analyses
 
 Most of the notebooks only take a few minutes to run. However, the random forest model takes several hours to fit. Therefore, the best-fit random forest model from the previous analysis is saved as `best_rf.sav` and can be loaded directly.
